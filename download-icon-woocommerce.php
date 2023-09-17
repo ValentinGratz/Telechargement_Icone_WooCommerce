@@ -21,3 +21,14 @@ function custom_add_styles() {
     }
 }
 add_action('wp_enqueue_scripts', 'custom_add_styles');
+
+function custom_display_presentation_page() {
+    include(plugin_dir_path(__FILE__) . 'presentation-page.php');
+}
+
+// Créez un menu pour la page de présentation dans le tableau de bord WordPress
+function custom_add_plugin_menu() {
+    add_menu_page('Présentation du plugin', 'Présentation du plugin', 'manage_options', 'plugin-presentation', 'custom_display_presentation_page');
+}
+
+add_action('admin_menu', 'custom_add_plugin_menu');
