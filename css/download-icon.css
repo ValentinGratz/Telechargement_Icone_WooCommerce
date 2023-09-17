@@ -1,0 +1,16 @@
+/* Styles pour l'icône de téléchargement */
+.download-icon {
+    position: absolute;
+    top: 10px; /* Ajustez la valeur en fonction de votre préférence */
+    right: 10px; /* Ajustez la valeur en fonction de votre préférence */
+    background-color: blue;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.download-icon img {
+    width: 20px; /* Ajustez la taille de l'icône en fonction de votre préférence */
+    height: 20px; /* Ajustez la taille de l'icône en fonction de votre préférence */
+}
+
+/* Ce CSS positionnera l'icône de téléchargement en haut à droite de l'image du produit avec un fond bleu et un effet de bordure arrondie. Vous pouvez ajuster les valeurs de top, right, width, height, et d'autres propriétés selon vos préférences pour obtenir l'apparence souhaitée. Assurez-vous d'enregistrer ce CSS dans un fichier nommé download-icon.css dans le dossier de votre plugin. */

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Téléchargement Icône WooCommerce
 Description: Ajoute une icône de téléchargement pour les produits téléchargeables.
-Version: 1.0.3
+Version: 1.0.1
 Author: Valentin Grätz
 */
 
@@ -16,6 +16,7 @@ add_action('woocommerce_before_single_product_summary', 'custom_add_download_ico
 
 function custom_add_styles() {
     if (is_product() || is_shop()) { // Vérifiez si c'est une page de produit ou de boutique
+        // Enregistrez le CSS pour votre icône
         wp_enqueue_style('custom-download-icon-css', plugin_dir_url(__FILE__) . 'css/download-icon.css');
     }
 }
