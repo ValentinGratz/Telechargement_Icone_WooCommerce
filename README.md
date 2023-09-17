@@ -12,6 +12,6 @@ Cette extension permet d'avoir sur la fiche produit WooCommerce une case à coch
 
 - v 1.0.1 : Ajout du png de l'icone de téléchargement et modification du src
 
+- v 1.0.2 : Correction de l'erreur critique, retrait du code en trop
+
 # Erreur - amélioration
-- Une erreur critique est survenue sur ce site.
-Une erreur de type E_ERROR a été causée dans la ligne 11 du fichier /public_html/wp-content/plugins/download-icon-woocommerce/download-icon-woocommerce.php. Message d’erreur : Cannot redeclare custom_add_download_icon() (previously declared in public_html/wp-content/plugins/download-icon-woocommerce/download-icon-woocommerce.php:11)
