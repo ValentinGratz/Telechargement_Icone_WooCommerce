@@ -8,8 +8,8 @@ Cette extension permet d'avoir sur la fiche produit WooCommerce une case à coch
 
 
 # Versions/ Changelog
--v 1 : Première version du code générée par ChatGPT
--v 1.0.1 : Ajout du png de l'icone de téléchargement et modification du src
+- v 1 : Première version du code générée par ChatGPT
+- v 1.0.1 : Ajout du png de l'icone de téléchargement et modification du src
 
 # Erreur - amélioration
 - Une erreur critique est survenue sur ce site.
