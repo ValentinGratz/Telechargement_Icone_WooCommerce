@@ -2,7 +2,7 @@
 /*
 Plugin Name: Téléchargement Icône WooCommerce
 Description: Ajoute une icône de téléchargement pour les produits téléchargeables.
-Version: 1.0.1
+Version: 1.0.3
 Author: Valentin Grätz
 */
 
