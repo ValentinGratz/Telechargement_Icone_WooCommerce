@@ -16,7 +16,7 @@ Cette extension permet d'avoir sur la fiche produit WooCommerce une case à coch
 
 - v 1.0.3 : Ajout de style CSS et gestion des produits téléchargeables
 
-- v 1.1.0 : Refonte du code et ajout de la fonctionnalité pour que l'extension ajoute le logo téléchargeable juste en cliquant dans la fiches produits de woocommerce que le produit et en téléchargement
+- v 1.1.0 beta : Refonte du code et ajout de la fonctionnalité pour que l'extension ajoute le logo téléchargeable juste en cliquant dans la fiches produits de woocommerce que le produit et en téléchargement
 
 
 ```
